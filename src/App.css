@@ -1,0 +1,59 @@
+.app-container {
+  font-family: 'Arial', sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  background-color: #fbe0c4; /* Light background color */
+  border-radius: 12px; /* Rounded corners */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+}
+
+h1 {
+  color: #a43cdb; /* Existing purple color */
+  margin-bottom: 30px;
+  font-size: 2.5rem; /* Larger font size */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Subtle text shadow */
+  transition: all 0.3s ease; /* Smooth transition effect */
+}
+
+h1:hover {
+  color: #902c8c; /* Darker purple on hover */
+  transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+p {
+  color: #333; /* Darker text for paragraphs */
+  font-size: 1.2rem; /* Increased font size */
+  margin-bottom: 20px;
+}
+
+button {
+  background-color: #ff8c00; /* Vibrant orange for buttons */
+  color: white; /* White text for contrast */
+  border: none; 
+  border-radius: 8px; /* Rounded corners for buttons */
+  padding: 10px 20px; /* Padding for buttons */
+  font-size: 1.1rem; 
+  cursor: pointer; 
+  transition: background-color 0.3s ease; /* Transition effect */
+}
+
+button:hover {
+  background-color: #ff7f50; /* Lighter orange on hover */
+}
+
+footer {
+  margin-top: 30px; /* Space between content and footer */
+  font-size: 0.9rem; 
+  color: #ce1b1b; /* Lighter gray */
+}
+
+footer a {
+  color: #a43cdb; /* Link color matches the heading */
+  text-decoration: none; /* Remove underline */
+}
+
+footer a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
